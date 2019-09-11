@@ -7,7 +7,7 @@
    <meta name="description" content="Mi Condominio Online">
    <meta name="keywords" content="condominio, vecino, gestion">
    <link rel="icon" type="image/x-icon" href="<?php echo base_url('assets/img/ECOLUNCH.png');?>">
-   <title>EcoLunch</title>
+   <title>Aflicae</title>
    <!-- =============== VENDOR STYLES ===============-->
 	 <!-- FONT AWESOME-->
 
@@ -29,7 +29,7 @@
    <!-- =============== MY STYLE ===============-->
    <link rel="stylesheet" href="<?php echo base_url('assets/css/estilo.css'); ?>" >
 
-	 <link rel="stylesheet" href="<?php echo base_url('assets/css/theme-f.css'); ?>" >
+	 <link rel="stylesheet" href="<?php echo base_url('assets/css/theme-e.css'); ?>" >
 	 <!-- <link rel="stylesheet" href="<?php //echo base_url('assets/css/theme-'.desencriptar($this->session->userdata('Tema')).'.css'); ?>" > -->
    <link href="<?php echo base_url('assets/vendor/toastr/toastr.min.css');?>" rel="stylesheet" />
    <!-- FONT AWESOME-->

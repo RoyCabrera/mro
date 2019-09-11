@@ -13,7 +13,7 @@
     <script src="<?php echo base_url('assets/js/login/bootstrap.min.js') ?>"></script>
 
 
-	<link rel="icon" type="image/x-icon" href="<?php echo base_url('assets/img/ECOLUNCH.png');?>">
+	<link rel="icon" type="image/x-icon" href="<?php echo base_url('assets/img/aflicae_logo.png');?>">
 
 	<style>
         .login-block{
@@ -63,7 +63,7 @@
 				<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12  login-sec">
 
 					<div class="text-center  rounded">
-						<img class="img-fluid" src="<?php echo base_url('assets/img/ECOLUNCH.png');?>" width="80%" alt="App Logo">
+						<img class="img-fluid" src="<?php echo base_url('assets/img/aflicae_logo.png');?>" width="80%" alt="App Logo">
 					</div>
 					<form class="login-form" method="POST" action="<?php echo site_url('Login/valida') ?>" >
 						<div class="form-group">
@@ -85,7 +85,7 @@
 
 						</div>
 						<br>
-						<button type="submit" class="btn btn-success float-right w-100">Ingresar</button>
+						<button type="submit" class="btn btn-primary float-right w-100">Ingresar</button>
 					</form>
 
 				</div>
@@ -98,13 +98,13 @@
 						</ol>
 						<div class="carousel-inner" role="listbox">
 							<div class="carousel-item active">
-								<img class="d-block img-fluid" src="<?php echo base_url('assets/img/food1.jpg') ?>" alt="1er slide">
+								<img class="d-block img-fluid" src="<?php echo base_url('assets/img/img1.jpg') ?>" alt="1er slide">
 							</div>
 							<div class="carousel-item">
-								<img class="d-block img-fluid" src="<?php echo base_url('assets/img/food2.jpg') ?>" alt="2do slide">
+								<img class="d-block img-fluid" src="<?php echo base_url('assets/img/img2.jpg') ?>" alt="2do slide">
 							</div>
 							<div class="carousel-item">
-								<img class="d-block img-fluid" src="<?php echo base_url('assets/img/food3.jpg') ?>" alt="3ra slide">
+								<img class="d-block img-fluid" src="<?php echo base_url('assets/img/img3.jpg') ?>" alt="3ra slide">
 							</div>
 						</div>
 

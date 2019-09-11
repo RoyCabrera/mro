@@ -5,10 +5,10 @@
             <div class="navbar-header">
                <a class="navbar-brand" href="#/">
                   <div class="brand-logo">
-                     <img class="img-fluid" src="<?php echo base_url('assets/img/ECOLUNCH_blanco.png');?>" width="21%" alt="App Logo">
+                     <img class="img-fluid" src="<?php echo base_url('assets/img/aflicae_logo.png');?>" width="21%" alt="App Logo">
                   </div>
                   <div class="brand-logo-collapsed">
-                     <img class="img-fluid" src="<?php echo base_url('assets/img/ECOLUNCH_blanco_mini.png');?>" width="100%" alt="App Logo">
+                     <img class="img-fluid" src="<?php echo base_url('assets/img/aflicae_logo.png');?>" width="100%" alt="App Logo">
                   </div>
                </a>
             </div>

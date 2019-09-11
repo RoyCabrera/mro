@@ -27,16 +27,7 @@
 		</div>
 	</div>
 </div>
-<div class="col-xl-3 col-md-6">
-	<!-- START card-->
-	<div class="card flex-row align-items-center align-items-stretch border-0">
-		<div class="col-4 d-flex align-items-center bg-purple-dark justify-content-center rounded-left"><em class="icon-cloud-upload fa-3x"></em></div>
-		<div class="col-8 py-3 bg-purple rounded-right">
-		<div class="h2 mt-0">15</div>
-		<div class="text-uppercase">Menús Vendidos en el dia</div>
-		</div>
-	</div>
-</div>
+
 </div>
 <div class="row">
 
@@ -46,7 +37,7 @@
 			<table class="table maestra">
 				<thead>
 					<tr>
-                        <th class="text-left">Insumos</th>
+                        <th class="text-left">Prodicto</th>
 
                         <th class="text-right">Costo</th>
                         <th class="text-right">Stock</th>
@@ -57,64 +48,23 @@
 				</thead>
 				<tbody>
 
-
-					<?php
-
-
-											if($Insumo_list){
-												foreach ($Insumo_list as $aux) {
-												$ID = encriptar($aux['ID_Insumo']);
-
-												$rutaeliminar= base_url('Insumo/eliminar/' . $ID);
-
-												echo "
-                                                <tr>
-														<td > ". $aux['Insumo'] ."</td>
-
-                                                        <td id='costo'>S/ ".  $aux['Costo'] ."</td>
-														<td id='stock'>".  $aux['Stock'] ." Kg</td>
-														<td id='stock'>".  $aux['StockAlmacen'] ." Kg</td>
- 														<td id='stockmin'>".$aux['StockMinimo']." Kg</td>
-
-												</tr>
-												";
-
-												}
-											}
-					?>
 				</tbody>
 			</table>
 		</div>
 	</div>
 	<div class="col-md-6">
-        <h3 class="text-center text-uppercase">Pedidos Pendientes</h3>
+        <h3 class="text-center text-uppercase">Ventas de hoy </h3>
 		<div class="table-responsive ">
 			<table class="table maestra">
 				<thead>
 					<tr>
                         <th class="text-left">Fecha Hora</th>
-                        <th class="">Mesa</th>
-                        <th class="">Mesero</th>
+                        <th class="">Cajero</th>
+                        <th class="">Cliente</th>
 					</tr>
 				</thead>
 				<tbody>
-					<?php
 
-						if($pedidoPendientes){
-							$pedido = $pedidoPendientes->result();
-							foreach ($pedido as $aux) {
-
-							echo "
-							<tr>
-								<td>$aux->FechaHora</td>
-								<td>$aux->Mesa</td>
-								<td>$aux->Nombre</td>
-							</tr>
-							";
-
-							}
-						}
-					?>
 				</tbody>
 			</table>
 		</div>
@@ -125,7 +75,7 @@
 
 		$('#t_admin').addClass('active');
 		var d = document.getElementById("titulomodulo");
-		d.innerHTML = "<em class='fa fa-lemon-o'></em> <span>Lista de Insumos</span>";
+		d.innerHTML = "<em class='fa fa-lemon-o'></em> <span>Panel de inicio</span>";
 	});
 
 	function baja(eliminar) {

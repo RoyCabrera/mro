@@ -70,24 +70,19 @@
 							</a>
 						</li>
 
-						<li class=" " id='m_menu' style="margin-left: 30px;" >
-                           <a href="<?php echo base_url('Menu') ?>" title='Platos'>
-                           <em class='fa fa-cutlery'></em>
-                           <span data-localize='sidebar.nav.Menu'>Platos</span>
-                           </a>
-                           </li>
+					
 
                      	   <li class=" " id='m_insumo' style="margin-left: 30px;">
 							<a title='Control de Insumo' href="<?php echo base_url('Insumo') ?>" >
 							<em class='fa fa-lemon-o'></em>
-							<span data-localize='sidebar.nav.Insumo'>Insumo</span>
+							<span data-localize='sidebar.nav.Insumo'>Productos</span>
 							</a>
                            </li>
 
                            <li class=" " id='m_mesa' style="margin-left: 30px;">
                            <a title="Control de Mesa" href="<?php echo base_url('Mesa') ?>" >
                            <em class='fa fa-pencil-square-o'></em>
-                           <span data-localize='sidebar.nav.Mesa'>Mesa</span>
+                           <span data-localize='sidebar.nav.Mesa'>Almacenes</span>
                            </a>
                            </li>
 
@@ -102,7 +97,7 @@
 					<li class='submenu' id='m_pedido'>
 						<a title='Control de Pedidos' href="<?php echo base_url('Pedido') ?>" >
 							<em class='fa fa-pencil-square-o'></em>
-							<span data-localize='sidebar.nav.Mesa'>Pedido</span>
+							<span data-localize='sidebar.nav.Mesa'>Ventas</span>
 						</a>
 					</li>
 					<?php
@@ -112,7 +107,7 @@
 					<li class='submenu' id='m_compra'>
 						<a title='Control de Compra' href="<?php echo base_url('Compra') ?>" >
 							<em class='fa fa-cart-plus'></em>
-							<span data-localize='sidebar.nav.Compra'>Compra</span>
+							<span data-localize='sidebar.nav.Compra'>Compras</span>
 						</a>
 					</li>
 
